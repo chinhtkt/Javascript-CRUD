@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan ly Sinh Vien</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="Read()">
+    <div id="reg">
+        <form id="form">
+            <h2 class="space">Tên Sinh Viên</h2>
+            <input type="text" id="name" class="space" placeholder="Ten" required name="class">
+            <h2 class="space">Lớp</h2>
+            <input type="text" id="className" class="space" placeholder="Ten Lop" required name="class">
+            <h2 class="space">Giới Tính</h2>
+            <input type="radio" name="gender" id="male" class="space" value="Nam" required>Nam
+            <input type="radio" name="gender" id="female" class="space" value="Nu" required>Nữ
+            <div><button class ="space" type="submit">Thêm mới</button></div>
+            <div><h2>Search</h2>
+            <input autofocus placeholder="Search by Name" class="space" type="text" autocomplete="off" name="search" id="myInput" onkeyup="searchFun()"/>
+            
+            </div>
+        </form>
+        
+    </div>
+    <div id="reg">
+        
+        <table id="nameTR">
+
+        </table>
+        <div>
+            
+            <button class="btn" onclick="previous()"><</button>
+            <span id="pageInfo"></span>
+            <button class="btn" onclick="nextPage()">></button>
+            
+    
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>

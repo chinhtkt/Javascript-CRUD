@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#reg{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    background-color: cyan;
+    margin-top: 30px;
+    color: black
+}
+.space{
+    padding: 10px;
+    margin: 10px;
+}
+#nameTR{
+    border-collapse: collapse;
+    width: 100%;
+}
+#nameTR td,th{
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+#nameTR button{
+    width: 45%;
+    margin: 3px;
+    padding: 4px;
+    
+}
+
+.container {
+    border: 1px solid rgba(0, 0, 0, .11);
+    ;
+    padding: 10px;
+    width: 500px
+}
